@@ -6,7 +6,7 @@ locals {
 # Terragrunt will copy the Terraform configurations specified by the source parameter, along with any files in the
 # working directory, into a temporary folder, and execute your Terraform commands in that folder.
 terraform {
-  source = "/Users/tathagatchaurasiya/Projects/TerraformFile//module1"
+  source = "/Users/tathagatchaurasiya/Projects/TerraformFile//module2"
 }
 
 # Include all settings from the root terragrunt.hcl file
