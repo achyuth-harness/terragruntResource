@@ -6,8 +6,8 @@ locals {
 # Terragrunt will copy the Terraform configurations specified by the source parameter, along with any files in the
 # working directory, into a temporary folder, and execute your Terraform commands in that folder.
 terraform {
-  source = "git::git@github.com:wings-software/Yogesh-Test.git//TF-12/test/cd-8169/A"
-//  source = "git::git@github.com:Tathagat-289/terraformResources.git//module1"
+//  source = "git::git@github.com:wings-software/Yogesh-Test.git//TF-12/test/cd-8169/A"
+  source = "github.com/Yogesh-Test/terraformResources//TF-12/test/cd-8169/A"
 }
 
 # Include all settings from the root terragrunt.hcl file
