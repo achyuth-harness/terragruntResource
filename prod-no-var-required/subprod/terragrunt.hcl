@@ -1,7 +1,8 @@
 
 
 terraform {
-  source = "git::git@github.com:Tathagat-289/terraformResources.git//module3"
+//  source = "git::git@github.com:Tathagat-289/terraformResources.git//module3"
+  source = "github.com/Tathagat-289/terraformResources//module3"
 }
 
 inputs = {
