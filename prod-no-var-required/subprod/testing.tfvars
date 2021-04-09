@@ -1,2 +1,0 @@
-sleep = "sleep"
-tfversion = "tfversion"

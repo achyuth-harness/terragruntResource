@@ -9,7 +9,7 @@ locals {
 
 terraform {
 //  source = "git::git@github.com:wings-software/Yogesh-Test.git//TF-12/test/ecs"
-  source = "github.com/wings-software/Yogesh-Test.git//TF-12/test/ecs"
+  source = "github.com/Tathagat-289/terraformResources//module4"
 }
 
 # Include all settings from the root terragrunt.hcl file
