@@ -8,8 +8,3 @@ locals {
 terraform {
   source = "github.com/Tathagat-289/terraformResources//aws-module-2"
 }
-
-# Include all settings from the root terragrunt.hcl file
-include {
-  path = find_in_parent_folders()
-}
