@@ -1,6 +1,5 @@
 slmodule3 = 10
-tfmodule3 = 5
-resource_tags = {
+tfmodule3 = {
   project     = "new-project",
   environment = "test",
   owner       = "me@example.com"
